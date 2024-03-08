@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.wcontainer{
+    width: 400px;
+    height: min-content;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.wsearch{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wsearch input{
+    width: 84%;
+    font-size: 20px;
+    color: #000;
+    background-color: #e6f5fb;
+    padding: 10px 14px;
+    border-radius: 22px;
+}
+
+.wsearch input::placeholder{
+    color: #000;
+}
+
+.wsearch button{
+    width: 46px;
+    height: 46px;
+    background-color: #e6f5fb;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.wsearch button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.wbody{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+
+.wbody img{
+    width: 60%;
+}
+
+.wbox{
+    margin-block: 20px;
+    text-align: center;
+}
+
+.wbox .wtemp{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.wbox .wtemp sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.wbox .wdesc{
+    font-size: 20px;
+    font-weight: 575;
+    text-transform: capitalize;
+}
+
+.wdetails{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.whumid, .wwind{
+    display: flex;
+    align-items: center;
+}
+
+.whumid{
+    margin-left: 20px;
+}
+
+.wwind{
+    margin-right: 20px;
+}
+
+.wdetails i{
+    font-size: 36px;
+}
+
+.wdetails .wtext{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.wtext span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.not-found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.not-found h1{
+    font-size: 25px;
+    color: #f00;
+    margin-block-end: 15px;
+}
+
+.not-found img{
+    width: 70%;
+}
